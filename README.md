@@ -2,7 +2,7 @@
 
 Serves artboard previews from [Skala Preview Sketch Plugin](https://bjango.com/help/skalapreview/sketch/) across network via http. Live reload supported via BrowserSync.
 
-
+![](https://raw.githubusercontent.com/ofstudio/sketch-liveserver/master/sketch-liveserver.gif)
 
 # Installation
 
