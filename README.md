@@ -13,6 +13,8 @@ Serves artboard previews from [Skala Preview Sketch Plugin](https://bjango.com/h
 
 # Run
 1. Run `./sketch-liveserver`
-2. Create new Sketch document and at least 1 artboard within it (or open existing document)
-3. Enable Auto Preview: `Plugins > Sketch Preview > Toggle Auto Preview`
-4. Open [http://localhost:3000](http://localhost:3000) in your browser
+2. Run `Skala Preview` application
+3. Create new Sketch document and at least 1 artboard within it (or open existing document)
+4. Enable Preview: `Plugins > Sketch Preview > Toggle Auto Preview`
+5. Toggle Auto Preview: `Plugins > Sketch Preview > Preview`
+6. Open [http://localhost:3000](http://localhost:3000) in your browser
