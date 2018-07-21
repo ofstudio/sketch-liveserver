@@ -12,7 +12,10 @@ if (typeof watchDir !== 'string' || watchDir.length < 1) {
 }
 
 const app = express()
-const bs = browserSync.create().init({logSnippet: false})
+const bs = browserSync.create().init({
+  logSnippet: false,
+  notify: false
+})
 let imageFileName = path.join(__dirname, 'default.png')
 
 app.set('views', __dirname)
