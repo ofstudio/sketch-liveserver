@@ -1,0 +1,35 @@
+{
+  "name": "sketch-liveserver",
+  "version": "0.0.1",
+  "description": "View Sketch artboards in browser",
+  "main": "app.js",
+  "scripts": {
+    "start": "./sketch-liveserver",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Oleg Fomin",
+    "email": "ofstudio@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ofstudio/sketch-liveserver.git"
+  },
+  "keywords": [
+    "Sketch",
+    "Sketchapp",
+    "plugin",
+    "Skala"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=8.9.0"
+  },
+  "dependencies": {
+    "browser-sync": "^2.24.6",
+    "connect-browser-sync": "^2.1.0",
+    "express": "^4.16.3",
+    "fsevents": "^1.2.4",
+    "hbs": "^4.0.1"
+  }
+}

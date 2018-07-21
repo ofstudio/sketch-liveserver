@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+cd "$(dirname "$0")"
+WATCH_DIR=~/Library/Caches/com.marcisme.sketch-preview/ node app
